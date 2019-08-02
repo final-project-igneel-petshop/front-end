@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Product from 'product';
 import {Link} from 'react-router-dom';
-import{ProductConsumer} from '../context';
+import{ProductConsumer} from './Context';
 import PropTypes from 'prop-types';
 
 export default class Product extends Component {
@@ -30,7 +29,7 @@ export default class Product extends Component {
                      )}
                      </button>
                 </div>  
-                )}
+                ))}
                     </ProductConsumer>
 
                      {/*card footer*/}
@@ -47,11 +46,11 @@ export default class Product extends Component {
 }
 Product.propTypes = {
     product:PropTypes.shape({
-        id:Propatypes.number,
+        id:PropTypes.number,
         img:PropTypes.string,
-        title:Proptypes.string,
+        title:PropTypes.string,
         price:PropTypes.number,
-        inCart:PropTypes.boolean
+        inCart:PropTypes.bool
     }).isRequired
 }
 

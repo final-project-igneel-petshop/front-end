@@ -46,7 +46,7 @@ export const storeProducts = [
     
 ];
 
-export const detailproduct = {
+export const detailProduct = {
     id:5,
     title: 'food D',
     img: 'img/product-1.png',
