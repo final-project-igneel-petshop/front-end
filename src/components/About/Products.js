@@ -36,10 +36,9 @@ export default class Products extends React.Component {
 
 
   render() {
-    let imageLink = `http://localhost:3000/src/images/cat.jpeg`
     return (
       <div>
-        <h1 className="text-center text-primary">Products</h1>
+      <h1 className="text-center text-primary">Products</h1>
         <div class="card-deck">
         <div className="card" style={{width: "18rem"}}>
           <img src={this.state.displayPicture} className="card-img-top" alt="productPicture" />
