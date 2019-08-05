@@ -1,0 +1,22 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark: #232528;
+  --mainYellow:#ffa400;
+}
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: const(--mainWhite) !important;
+  color: const (--mainDark) !important;
+}
+.text-title{
+  font-family: 'permanent marker', cursive;
+  letter-spacing: uppercase;
+}
+.text-blue{
+  color: const(--mainBlue);
+}
+.text-bright{
+  color:var(--mainBlue);
+}
